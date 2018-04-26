@@ -24,7 +24,7 @@ class Miner(BasePollerFT):
 
         r = requests.post(
                 self.url,
-                **kwargs
+                **rkwargs
         )
 
         try:
