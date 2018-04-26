@@ -7,10 +7,10 @@
     "url": "https://github.com/dreilly1982/incapsula-miner",
     "entry_points": {
         "minemeld_nodes": {
-            "youtubeminer.Miner": "incapsulaminer.node:Miner"
+            "incapsulaminer.Miner": "incapsulaminer.node:Miner"
         },
         "minemeld_prototypes": {
-            "youtubeminer.prototypes": "incapsulaminer:prototypes"
+            "incapsulaminer.prototypes": "incapsulaminer:prototypes"
         }
     },
     "manifest_version": 0
