@@ -34,7 +34,7 @@ class Miner(BasePollerFT):
                     self.name, r.status_code, r.content)
             raise
 
-        result = r.json()['ipRanges']
+        return map(lambda x: str(x), r.json()['ipRanges'])
 
     def _process_item(self, item):
         if item is None:

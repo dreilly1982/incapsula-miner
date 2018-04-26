@@ -18,6 +18,7 @@ prototypes:
     config:
       polling_timeout: 20
       verify_cert: true
+      source_name: incapsula.API
       # age out of indicators
       # disabled, removed when they disappear from the channel
       age_out:
