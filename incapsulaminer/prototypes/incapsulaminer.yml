@@ -3,7 +3,7 @@ description: >
   Sample extension for MineMeld.
 
 prototypes:
-  eevblog:
+  sourceips:
     author: Don Reilly
     class: incapsulaminer.Miner
     development_status: EXPERIMENTAL
@@ -14,7 +14,7 @@ prototypes:
       - extension
       - incapsulaminer
     description: >
-      test prototype for incapsulaminer.Miner, mines IPs of Incapsula
+      test prototype for incapsulaminer.Miner, mines source IPs of Incapsula
     config:
       polling_timeout: 20
       verify_cert: true
