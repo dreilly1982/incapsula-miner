@@ -15,7 +15,7 @@ class Miner(BasePollerFT):
 
         self.url = 'https://my.incapsula.com/api/integration/v1/ips?resp_format=json'
 
-    def _build_interator(self, item):
+    def _build_iterator(self, item):
         rkwargs = dict(
                 stream = False,
                 verify = self.verify_cert,
