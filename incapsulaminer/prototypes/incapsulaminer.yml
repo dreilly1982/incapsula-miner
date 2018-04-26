@@ -1,0 +1,28 @@
+url: https://github.com/dreilly1982/incapsula-miner
+description: >
+  Sample extension for MineMeld.
+
+prototypes:
+  eevblog:
+    author: Don Reilly
+    class: incapsulaminer.Miner
+    development_status: EXPERIMENTAL
+    node_type: miner
+    indicator_types:
+      - IPv4
+    tags:
+      - extension
+      - incapsulaminer
+    description: >
+      test prototype for incapsulaminer.Miner, mines IPs of Incapsula
+    config:
+      polling_timeout: 20
+      verify_cert: true
+      # age out of indicators
+      # disabled, removed when they disappear from the channel
+      age_out:
+        sudden_death: true
+        default: null
+      # flag indicators with share level green
+      attributes:
+        share_level: green

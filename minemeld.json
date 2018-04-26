@@ -1,0 +1,17 @@
+{
+    "version": "0.1",
+    "name": "incapsula-miner",
+    "author": "Don Reilly",
+    "author_email": "dreilly1982@gmail.com",
+    "description": "MineMeld miner node for Incapsula source IPs",
+    "url": "https://github.com/dreilly1982/incapsula-miner",
+    "entry_points": {
+        "minemeld_nodes": {
+            "youtubeminer.Miner": "incapsulaminer.node:Miner"
+        },
+        "minemeld_prototypes": {
+            "youtubeminer.prototypes": "incapsulaminer:prototypes"
+        }
+    },
+    "manifest_version": 0
+}
